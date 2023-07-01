@@ -1,0 +1,347 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Oswald', sans-serif;
+}
+.background{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;    
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+.bar{
+    height: 12%;
+    display: flex;
+    align-items: center;  
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+h2{
+    color: #FFF;
+    font-size: 45px;
+    margin-left: 135px;
+    font-style: oblique;
+    text-shadow: 1px 2px #000;
+}
+.menu{
+    width:70px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    transition: all .50s;
+}
+
+nav ul li a:hover{  
+    color: yellow;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 200px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.content{
+    flex-basis: 50%; 
+    display: block;
+}
+}
+.text{
+    width:100%;
+    display: block;
+}
+h1{
+    color: #FFA500;
+    font-size: 100px;
+    font-style: normal;
+    border: 1;
+    text-shadow: 2px 5px #000;
+    text-align: center;
+}
+iframe{
+    width:800px;
+    height:650px;
+    border-style: solid;
+    border: 40px;
+    border-radius: 20px;
+    display:block;
+    box-shadow: 5px 5px #FFF;
+}
+.backgroundd{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;    
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    padding-top: 2%;
+    background-attachment: fixed;
+}
+.contentt{
+    flex-basis: 50%; 
+    display: block;
+}
+.lamann{
+    display: block;
+    width 100%;
+}
+.textt{
+    width:100%;
+    display: block;
+}
+.textt h1{
+    color: #FFA500;
+    font-size: 100px;
+    font-style: normal;
+    border: 1;
+    text-shadow: 2px 5px #000;
+    text-align: center;
+}
+.az h1{
+    color: #FFA500;
+    font-size: 40px;
+    font-style: normal;
+    border: 1;
+    text-shadow: 2px 3px #000;
+    text-align: left;
+}
+.az p{
+    color: white;
+    font-size: 25px;
+    font-style: normal;
+    border: 1;
+    text-shadow: 2px 3px #000;
+    text-align: left;
+    padding-left: 10px;
+    display:block;
+    margin-left:100px;
+    list-style-type:square;
+}
+.laman img{
+    width:340px;
+    height:340px;
+    border-style: solid;
+    border: 40px;
+    border-radius: 20px;
+    display:block;
+    box-shadow: 5px 5px #000;
+    float:left;
+    margin-right:50px
+
+}
+.bkg{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;    
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    padding-top: 0%;
+    background-attachment: fixed;
+}
+.wrap img{
+    width: 400px; 
+    height: 170px;
+    margin-top: 20px;
+    float:left;
+    border-radius: 10px;
+    margin-right: 50px;
+    box-shadow: 5px 5px #FFF;
+    }
+
+.wrap{
+    width: 100%;
+     display:inline-block
+}
+.text-box{
+    color: #FFF;
+    
+}
+.text-box h1 {
+    font-size: 56px;
+    font-style: normal;
+    text-align: left;
+
+    
+}
+.text-box p {
+    font-size: 20px;
+    line-height: 23px;
+    
+        
+}
+
+.wrapp img{
+    width: 400px; 
+    height: 170px;
+    margin-top: 20px;
+    float:left;
+    border-radius: 10px;
+    margin-right: 50px;
+    box-shadow: 5px 5px #FFF;
+    }
+.
+}
+
+.wrapp{
+    width: 100%;
+    display:inline-block;
+    align-content: center;
+}
+.text-boxx{
+    color: #FFF;
+}
+.text-boxx h1 {
+    font-size: 56px;
+    font-style: normal;
+    text-align: left;
+
+    
+}
+.text-boxx p {
+    font-size: 20px;
+    line-height: 23px;
+}
+.wrappe img{
+    width: 300px; 
+    height: 300px;
+    margin-top: 20px;
+    float:left;
+    border-radius: 10px;
+    margin-right: 50px;
+    box-shadow: 5px 5px #FFF;
+    margin-left: 35px;
+}
+.txt-box{
+    color: #FFF;
+    padding-top: 10%;
+}
+.txt-box h1 {
+    font-size: 56px;
+    font-style: normal;
+    text-align: left;
+
+    
+}
+.txt-box p {
+    font-size: 25px;
+    line-height: 23px;
+    margin-top:15px;
+    margin-right:15px
+}     
+.wrappe{
+    width: 100%;
+    display:inline-block;
+    align-content: center;
+    padding-bottom: 5%;
+    }
+.half{
+    float:left;
+    width: 50%;
+}
+.picz{
+    padding-top: 2%;
+    margin-bottom: 5%;
+}
+.four{
+    width:100%;
+    display:inline-block;
+}
+.four h1{
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+}
+.an{
+    float:left;
+    width:25%;
+    text-align: center;
+    color:white;
+}
+.an p{
+    font-size: 30px;
+    text-align: center;
+    width:25%;
+    color:white;
+    margin-right: 5px;
+    padding-right: 15px;
+}
+.an p1{
+    font-size: 25px;
+    text-align: center;
+    width:25%;
+    color:white;
+    margin-right: 5px;
+    padding-right: 15px;
+}
+.laman{
+    display: inline-block;
+    width 100%;
+}
+.piz{
+    float:left;
+    width:25%;
+}
+.pizzzz{
+    float:left;
+    width:25%;
+}
+.pizzzz img{
+    width:380px;
+    height:380px;
+}
+.pizz{
+    float:left;
+    width:20%;
+
+}
+.ann p1{
+    font-size:25px;
+    text-align: center;
+    width:20%;
+    color:white;
+    margin-right: 5px;
+    padding-right: 15px;
+    text-shadow: 2px 3px #
+}
+.ann{
+    float:left;
+    width:20%;
+    text-align: center;
+    color:white;
+}
+.pizz img{
+    width: 300px;
+    height: 300px;
+}
+.fourr h1{
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+}
+.fourr p{
+    font-size:25px;
+    text-align: center;
+    width:20%;
+    color:white;
+    margin-right: 5px;
+    padding-right: 15px;
+    
+}
