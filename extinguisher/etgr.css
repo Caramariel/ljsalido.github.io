@@ -1,0 +1,328 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Oswald', sans-serif;
+}
+.background{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;    
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.bar{
+    height: 12%;
+    display: flex;
+    align-items: center;  
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+h2{
+    color: #FFF;
+    font-size: 45px;
+    margin-left: 135px;
+    font-style: oblique;
+    text-shadow: 1px 2px #000;
+}
+.menu{
+    width:70px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    transition: all .50s;
+}
+
+nav ul li a:hover{  
+    color: yellow;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 200px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.content{
+    flex-basis: 50%; 
+}
+.laman{
+    display: inline-block;
+    margin: 150px auto;
+    width 70%;
+}
+.text{
+    float:left;
+    width:50%;
+}
+h1{
+    color: #FFA500;
+    font-size: 100px;
+    font-style: normal;
+    border: 1;
+    text-shadow: 2px 5px #000;
+    float:left;
+    text-align: center;
+    margin-right: 100px;
+}
+p{
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 27px;
+    margin-right: 100px;
+    text-align: justify;
+    text-shadow: 1px 1px #000;
+    float:left;
+}
+iframe{
+    width:750px;
+    height:600px;
+    display: inline-block;
+    margin-left; 10px;
+    float: right;
+    margin-right: 10px;
+    padding-bottom: 40px;
+    border-style: solid;
+    border: 40px;
+    border-radius: 20px;
+}
+.extend{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/orange.png);
+    background-position: center;
+    background-size: cover;    
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.contentt{
+    flex-basis: 50%; 
+}
+.lamann{
+    display: inline-block;
+    margin: 150px auto;
+    width 70%;
+}
+.textt{
+    float:right;
+    width:50%;
+}
+.textt h1{
+    color: #FFA500;
+    font-size: 100px;
+    font-style: normal;
+    border: 1;
+    text-shadow: 2px 5px #000;
+    float:none;
+    text-align: center;
+    margin-left: 100px;
+    
+}
+.textt p{
+    color: #fff;
+    font-size: 50px;
+    font-style: normal;
+    line-height: 45px;
+    margin-left: 100px;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+    float:left;
+}
+.lamann img{
+    width:750px;
+    height:600px;
+    display: inline-block;
+    margin-left; 10px;
+    float: left;
+    margin-right: 10px;
+    border-style: solid;
+    border: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px #000;
+}
+.extendd{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/orange.png);
+    background-position: center;
+    background-size: cover;    
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.contenttt{
+    flex-basis: 50%; 
+}
+.lamannn{
+    display: inline-block;
+    margin: 150px auto;
+    width 70%;
+}
+.texttt{
+    float:right;
+    width:50%;
+}
+.texttt h1{
+   color: #FFA500;
+    font-size: 100px;
+    font-style: normal;
+    border: 1;
+    text-shadow: 2px 5px #000;
+    float:none;
+    text-align: center;
+    margin-left: 100px;
+    
+}
+.texttt p{
+    color: #fff;
+    font-size: 50px;
+    font-style: normal;
+    line-height: 45px;
+    margin-left: 100px;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+    float:left;
+}
+.lamannn img{
+    width:750px;
+    height:600px;
+    display: inline-block;
+    margin-left; 10px;
+    float: left;
+    margin-right: 10px;
+    border-style: solid;
+    border: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px #000;
+    
+}
+.extenddd{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/orange.png);
+    background-position: center;
+    background-size: cover;    
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.contentttt{
+    flex-basis: 50%; 
+}
+.lamannnn{
+    display: inline-block;
+    margin: 150px auto;
+    width 70%;
+}
+.textttt{
+    float:right;
+    width:50%;
+}
+.textttt h1{
+    color: #FFA500;
+    font-size: 100px;
+    font-style: normal;
+    border: 1;
+    text-shadow: 2px 5px #000;
+    float:none;
+    text-align: center;
+    margin-left: 100px;
+
+    
+}
+.textttt p{
+    color: #fff;
+    font-size: 50px;
+    font-style: normal;
+    line-height: 45px;
+    margin-left: 100px;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+    float:left;
+}
+.lamannnn img{
+    width:750px;
+    height:600px;
+    display: inline-block;
+    margin-left; 10px;
+    float: left;
+    margin-right: 10px;
+    border-style: solid;
+    border: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px #000;
+}
+.extendddd{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/orange.png);
+    background-position: center;
+    background-size: cover;    
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.contenttttt{
+    flex-basis: 50%; 
+}
+.lamannnnn{
+    display: inline-block;
+    margin: 150px auto;
+    width 70%;
+}
+.texttttt{
+    float:right;
+    width:50%;
+}
+.texttttt h1{
+    color: #FFA500;
+    font-size: 100px;
+    font-style: normal;
+    border: 1;
+    text-shadow: 2px 5px #000;
+    float:none;
+    text-align: center;
+    margin-left: 100px;
+    
+}
+.texttttt p{
+    color: #fff;
+    font-size: 50px;
+    font-style: normal;
+    line-height: 45px;
+    margin-left: 100px;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+    float:left;
+}
+.lamannnnn img{
+    width:750px;
+    height:600px;
+    display: inline-block;
+    margin-left; 10px;
+    float: left;
+    margin-right: 10px;
+    border-style: solid;
+    border: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px #000;
+}
+.break br{
+    height 200px;
+}
+.hell{
+    color: black;
+}
+}
